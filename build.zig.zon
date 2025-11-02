@@ -1,0 +1,17 @@
+.{
+    .name = .zurk,
+    .fingerprint = 0xb09596fbfa93ec96,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+        .lib_zurk = .{
+            .path = "libs/universal-robots-kinematics",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "libs",
+        "src",
+    },
+}

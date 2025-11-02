@@ -1,0 +1,4 @@
+[submodule "libs/upstream/universal-robots-kinematics"]
+	path = libs/upstream/universal-robots-kinematics
+	url = https://github.com/lab-key/universal-robots-kinematics
+	branch = zurk
